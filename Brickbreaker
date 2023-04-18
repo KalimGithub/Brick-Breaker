@@ -1,0 +1,21 @@
+package com.mycompany.brickbreaker;
+
+import javax.swing.JFrame;
+
+/**
+ *
+ * @author kalim shaikh
+ */
+ 
+public class BrickBreaker{  
+public static void main(String[] args) {  
+JFrame f=new JFrame();//creating instance of JFrame  
+GamePlay gameplay = new GamePlay();
+f.setBounds(10, 10, 700,600);
+f.setTitle("Brick Breaker");
+f.setResizable(false);
+f.setSize(1000,2100);//400 width and 500 height  
+f.setVisible(true);//making the frame visible  
+f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+}  
+}  
